@@ -140,3 +140,17 @@ body {
   width: 0%;
   transition: width 0.1s linear;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .music-container {
+    width: 90%;
+  }
+
+  .navigation {
+    margin-right: -2rem;
+  }
+}
